@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.68d1262c-548c-4706-b266-985e0bc4e015",
+      "was_cloned": true,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:477694446930:function:aws-serverless-repository-alexaskillskitnodejsfact-HSAHRI6I8AXW"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

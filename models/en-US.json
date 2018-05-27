@@ -1,0 +1,39 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "footbuzz",
+      "intents": [
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "positive",
+          "samples": [
+            "yup",
+            "yes",
+            "yeah"
+          ]
+        },
+        {
+          "name": "negative",
+          "samples": [
+            "no"
+          ]
+        }
+      ]
+    }
+  }
+}

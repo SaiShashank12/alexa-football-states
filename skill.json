@@ -1,0 +1,61 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "This skill gives you amazing facts about amazing game named football",
+          "examplePhrases": [
+            "Alexa, open footbuzz.",
+            ""
+          ],
+          "keywords": [
+            "football",
+            "worldcup",
+            "football",
+            "info"
+          ],
+          "name": "footbuzz",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/c282/06bc81c4b411401e93b3a02a55771150/APP_ICON?versionId=9rsdLaj1_OH0KvguRNgMvXGkkgPqt_do&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527499025&Signature=Yx6f5FChzctqUX%2BU1IrAnlFvWVw%3D",
+          "description": "The game of life is a lot like football. You have to tackle your problems, block your fears, and score your points when you get the opportunity. So let's know more about this sport via this skill",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8de4/07dd110be21c42ddba7fa447a80e618e/APP_ICON_LARGE?versionId=edf.zsDxJrBVGo38AAkt5FJvEaQtkil2&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527499025&Signature=vXyDHEaDRZrOz68TPTv6YsAlCjo%3D"
+        },
+        "en-IN": {
+          "summary": "This skill gives you amazing facts about amazing game named football",
+          "examplePhrases": [
+            "Alexa, open footbuzz."
+          ],
+          "keywords": [
+            "football",
+            "worldcup",
+            "football",
+            "info"
+          ],
+          "name": "footbuzz",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/79b8/1ef8d2431fca40b19ee807a8b0c7c23b/APP_ICON?versionId=rsqxuYbfSD71vh6FLI.Y39hIdAxT3eZK&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527499025&Signature=RNNXWKbAPeQK6SvkUo9k8GE7uss%3D",
+          "description": "The game of life is a lot like football. You have to tackle your problems, block your fears, and score your points when you get the opportunity. So let's know more about this sport via this skill",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/e9c6/22d0d1dbb586446ba9d4a751ca2295c8/APP_ICON_LARGE?versionId=DZlwJtJqgrhrvzkb3DD6gxMcDi2ksgJs&AWSAccessKeyId=AKIAI3X6PUXD7CU5F5BQ&Expires=1527499025&Signature=3INyYyYADqKxSNQtRqASC9j3k%2Bk%3D"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "when you open this app, tell your name as \"My name is {name}\"",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda\\custom"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": true,
+      "usesPersonalInfo": false
+    }
+  }
+}
